@@ -1104,12 +1104,12 @@ class AnalysisIndicators(object):
         result = stochf(high=high, low=low, close=close, k=k, d=d, mamode=mamode, talib=talib, offset=offset, **kwargs)
         return self._post_process(result, **kwargs)
 
-    def stochrsi(self, length=None, rsi_length=None, k=None, d=None, mamode=None, offset=None, **kwargs: DictLike):
+    def stochrsi(self, length=None, rsi_length=None, k=None, d=None, mamode=None, talib=None, offset=None, **kwargs: DictLike):
         high = self._get_column(kwargs.pop("high", "high"))
         low = self._get_column(kwargs.pop("low", "low"))
         close = self._get_column(kwargs.pop("close", "close"))
         result = stochrsi(high=high, low=low, close=close, length=length, rsi_length=rsi_length, k=k, d=d,
-                          mamode=mamode, offset=offset, **kwargs)
+                          mamode=mamode, talib=talib, offset=offset, **kwargs)
         return self._post_process(result, **kwargs)
 
     def tmo(self, tmo_length=None, calc_length=None, smooth_length=None, mamode=None, compute_momentum=False, normalize_signal=False, offset=None, **kwargs: DictLike):

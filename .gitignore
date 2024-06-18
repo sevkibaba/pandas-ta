@@ -12,9 +12,6 @@ env_ta/
 
 # Distribution / packaging
 .Python
-env/
-env11/
-env12/
 build/
 develop-eggs/
 dist/
@@ -97,14 +94,13 @@ pytestdebug.log
 
 # dotenv
 .env
-.env11
-.env12
 
 # virtualenv
 .venv
 venv/
 ENV/
 env/**
+.env*/
 
 # Spyder project settings
 .spyderproject
