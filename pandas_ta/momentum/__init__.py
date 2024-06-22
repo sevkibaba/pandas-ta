@@ -30,6 +30,7 @@ from .rsi import rsi
 from .rsx import rsx
 from .rvgi import rvgi
 from .slope import slope
+from .smc import smc
 from .smi import smi
 from .squeeze import squeeze
 from .squeeze_pro import squeeze_pro
@@ -42,6 +43,7 @@ from .trix import trix
 from .tsi import tsi
 from .uo import uo
 from .willr import willr
+
 
 __all__ = [
     "ao",
