@@ -79,15 +79,15 @@ def kdj(
         j.fillna(kwargs["fillna"], inplace=True)
 
     # Name and Category
-    _params = f"_{length}_{signal}"
-    k.name = f"K{_params}"
-    d.name = f"D{_params}"
-    j.name = f"J{_params}"
+    _props = f"_{length}_{signal}"
+    k.name = f"K{_props}"
+    d.name = f"D{_props}"
+    j.name = f"J{_props}"
     k.category = d.category = j.category = "momentum"
 
     data = {k.name: k, d.name: d, j.name: j}
     df = DataFrame(data, index=close.index)
-    df.name = f"KDJ{_params}"
+    df.name = f"KDJ{_props}"
     df.category = "momentum"
 
     return df

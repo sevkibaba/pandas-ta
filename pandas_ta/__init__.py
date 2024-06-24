@@ -53,7 +53,7 @@ __all__ = [
     "AnalysisIndicators",
 ]
 
-__all__ += (
+__all__ += [
     utils_all
     + candles_all
     + cycles_all
@@ -65,4 +65,4 @@ __all__ += (
     + trend_all
     + volatility_all
     + volume_all
-)
+]

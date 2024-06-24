@@ -406,6 +406,12 @@ def test_slope(df):
     assert result.name == "ANGLEd_1"
 
 
+def test_smc(df):
+    result = ta.smc(df.open, df.high, df.low, df.close)
+    assert isinstance(result, DataFrame)
+    assert result.name == "SMC_14_50_20_5"
+
+
 def test_smi(df):
     result = ta.smi(df.close)
     assert isinstance(result, DataFrame)
@@ -759,6 +765,16 @@ def test_ext_rvgi(df):
 def test_ext_slope(df):
     df.ta.slope(append=True)
     assert df.columns[-1] == "SLOPE_1"
+
+
+def test_ext_smc(df):
+    df.ta.smc(append=True)
+    columns = [
+        "SMChv_14_50_20_5",
+        "SMCbf_14_50_20_5", "SMCbi_14_50_20_5", "SMCbp_14_50_20_5",
+        "SMCtf_14_50_20_5", "SMCti_14_50_20_5", "SMCtp_14_50_20_5"
+    ]
+    assert list(df.columns[-7:]) == columns
 
 
 def test_ext_smi(df):

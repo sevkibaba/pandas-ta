@@ -1060,6 +1060,18 @@ class AnalysisIndicators(object):
         result = slope(close=close, length=length, offset=offset, **kwargs)
         return self._post_process(result, **kwargs)
 
+    def smc(self, abr_length=None, close_length=None, vol_length=None, percent=None, vol_ratio=None, asint=None, mamode=None, talib=None, offset=None, **kwargs):
+        open_ = self._get_column(kwargs.pop("open", "open"))
+        high = self._get_column(kwargs.pop("high", "high"))
+        low = self._get_column(kwargs.pop("low", "low"))
+        close = self._get_column(kwargs.pop("close", "close"))
+        result = smc(
+            open_=open_, high=high, low=low, close=close,
+            abr_length=abr_length, close_length=close_length, vol_length=vol_length, percent=percent,
+            vol_ratio=vol_ratio, asint=asint, mamode=mamode, talib=talib, offset=offset, **kwargs
+        )
+        return self._post_process(result, **kwargs)
+
     def smi(self, fast=None, slow=None, signal=None, scalar=None, offset=None, **kwargs: DictLike):
         close = self._get_column(kwargs.pop("close", "close"))
         result = smi(close=close, fast=fast, slow=slow, signal=signal, scalar=scalar, offset=offset, **kwargs)

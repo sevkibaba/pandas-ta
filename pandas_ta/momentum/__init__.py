@@ -77,6 +77,7 @@ __all__ = [
     "rsx",
     "rvgi",
     "slope",
+    "smc",
     "smi",
     "squeeze",
     "squeeze_pro",
