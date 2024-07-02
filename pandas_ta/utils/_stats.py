@@ -76,11 +76,10 @@ def inv_norm(value: IntFloat) -> Union[None, Number]:
     negate = True
     v = value
 
-    # if v == 0.0: return -npInfty
     if v == 0.0:
-        return -infty
+        return -inf
     if v == 1.0:
-        return infty
+        return inf
     if v < 0.0 or value > 1.0:
         return nan
 
