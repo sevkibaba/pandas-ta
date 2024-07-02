@@ -4,7 +4,6 @@
 
 # Pandas TA
 ### A Comprehensive Python Technical Analysis Library for Traders and Investors
-=================
 
 [![license](https://img.shields.io/github/license/twopirllc/pandas-ta)](#license)
 [![Python Version](https://img.shields.io/pypi/pyversions/pandas-ta?style=flat)](https://pypi.org/project/pandas_ta/)
@@ -65,9 +64,7 @@ Thus there will not be constant activity and churn on the project, but rather a 
 # Support :broken_heart:
 **A big thank you to all current and past sponsors, whose generous support has been and continues to be essential to the success of the project!** :pray:
 
-<p align="center">
-  [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/twopirllc) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K4ZRH9D)
-</p>
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/twopirllc) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K4ZRH9D)
 
 Despite what the usage metrics indicate, current and past levels of support are **unsustainable** for maintaining and improving the library. Unless  significant additional support is provided by _July 1st, 2026_, this widely used library will be **archived**. Support through [contributions](https://github.com/twopirllc/pandas-ta/labels/help%20wanted), [donations](https://www.buymeacoffee.com/twopirllc) & [sponsorships](https://github.com/twopirllc) is **necessary** to ensure the project's continued success and development.
 
