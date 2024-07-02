@@ -65,8 +65,9 @@ Thus there will not be constant activity and churn on the project, but rather a 
 # Support :broken_heart:
 **A big thank you to all current and past sponsors, whose generous support has been and continues to be essential to the success of the project!** :pray:
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/twopirllc)
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K4ZRH9D)
+<p align="center">
+  [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/twopirllc) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K4ZRH9D)
+</p>
 
 Despite what the usage metrics indicate, current and past levels of support are **unsustainable** for maintaining and improving the library. Unless  significant additional support is provided by _July 1st, 2026_, this widely used library will be **archived**. Support through [contributions](https://github.com/twopirllc/pandas-ta/labels/help%20wanted), [donations](https://www.buymeacoffee.com/twopirllc) & [sponsorships](https://github.com/twopirllc) is **necessary** to ensure the project's continued success and development.
 
@@ -108,10 +109,14 @@ Click on green [<> Code](https://github.com/twopirllc/pandas-ta) button to downl
 
 
 # Contributors
-Your help has continues to be integral to this project. Thank you for your help! :sunglasses:
+Thank you all for your help! It has been and continues to be integral to this project. :sunglasses:
+
+<br>
+
 <a href="https://github.com/twopirllc/pandas-ta/graphs/contributors">
-  <img src="https://contrib.rocks/image?&columns=25&max=10000&&repo=twopirllc/pandas-ta" noZoom />
+  <img src="https://contrib.rocks/image?anon=1&repo=twopirllc/pandas-ta" noZoom />
 </a>
+Made with [contrib.rocks](https://contrib.rocks).
 
 <br>
 
