@@ -19,7 +19,7 @@ setup(
         "pandas_ta.volatility",
         "pandas_ta.volume"
     ],
-    version=".".join(("0", "4", "18b")),
+    version=".".join(("0", "4", "19b")),
     description=long_description,
     long_description=long_description,
     author="Kevin Johnson",
@@ -55,7 +55,7 @@ setup(
     },
     install_requires=[
         "numba>=0.59.0",
-        "numpy>=1.26.4",
+        "numpy<=2",
         "pandas>=2.2.0",
         "pandas-datareader",
         "scipy>=1.12"
@@ -72,7 +72,7 @@ setup(
         ],
         "test": [
             "numba>=0.59.0",
-            "numpy>=1.26.4",
+            "numpy<=2",
             "pandas_datareader>=0.10.0",
             "pytest==7.1.2",
             "TA-Lib>=0.4.28",

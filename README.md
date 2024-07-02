@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.pandas-ta.dev"><img src="./images/ta-logo.png" alt="Pandas TA"></a>
+  <a href="https://www.pandas-ta.dev"><img src="images/ta-logo.png" alt="Pandas TA"></a>
 </p>
 
 # Pandas TA
@@ -90,7 +90,7 @@ $ pip install git+https://github.com/twopirllc/pandas-ta
 ```sh
 $ pip install -U git+https://github.com/twopirllc/pandas-ta.git@development
 ```
-* The _development_ version, _0.4.18b_, includes _numerous_ bug fixes, speed improvements and better documentation since release, _0.3.14b_.
+* The _development_ version includes _numerous_ bug fixes, speed improvements and better documentation since release, _0.3.14b_.
 
 ### Local Installation
 Click on green [<> Code](https://github.com/twopirllc/pandas-ta) button to download the source zip and unzip in your application directory. Then perform a local install.
@@ -113,6 +113,7 @@ Thank you all for your help! It has been and continues to be integral to this pr
 <a href="https://github.com/twopirllc/pandas-ta/graphs/contributors">
   <img src="https://contrib.rocks/image?anon=1&repo=twopirllc/pandas-ta" noZoom />
 </a>
+
 Made with [contrib.rocks](https://contrib.rocks).
 
 <br>
