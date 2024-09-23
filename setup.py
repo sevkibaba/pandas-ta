@@ -52,7 +52,7 @@ setup(
     },
     install_requires=[
         "numpy==1.26.4",
-        "pandas"
+        "pandas==1.5.3"
     ],
     # List additional groups of dependencies here (e.g. development dependencies).
     # You can install these using the following syntax, for example:
